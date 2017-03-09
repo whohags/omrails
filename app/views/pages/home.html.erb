@@ -1,14 +1,15 @@
 <% if user_signed_in? %>
-   <div class="jumbotron jumbotron-home">
-        <div class="container">
-                <h1>Welcome back!</h1>
-                <p>Mangrove curates the best mens style from Amazon</p> 
+   <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-3">Mangrove</h1>
+        <p class="lead">Mangrove curates the best mens fashion from Amazon.</p>
+
 <% else %>  
 
-    <div class="jumbotron jumbotron-home">
+       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-                <h1>Mangrove</h1>
-                <p>Mangrove curates the best mens style from Amazon</p>
+          <h1 class="display-3">Mangrove</h1>
+             <p class="lead">Mangrove curates the best mens fashion from Amazon.</p>
                 <%= link_to "Learn more »", "#", class: "btn btn-primary btn-lg" %> 
 
          
@@ -18,18 +19,20 @@
         <div class="row">
             <div class="col-md-4">
                 <h2>Shirts</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
+                    <p><a class="embedly-card" href="https://www.amazon.com/Goodthreads-Regular-Fit-Long-Sleeve-Oxford-X-Large/dp/B01KGE5P2W/ref=sr_1_2?s=apparel&ie=UTF8&qid=1489018585&sr=1-2&nodeID=7147441011&keywords=good+threads">Goodthreads Men's Regular-Fit Long-Sleeve Solid Oxford Shirt</a>
+                    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> </p>
+                
             </div>
             <div class="col-md-4">
                 <h2>Pants</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
+                    <p><a class="embedly-card" href="https://www.amazon.com/Levis-Mens-Black-Stretch-34x32/dp/B01EBQ36V8/ref=sr_1_5?s=apparel&ie=UTF8&qid=1489018460&sr=1-5&nodeID=7141123011&keywords=levis%2Bjeans&th=1">Levi's Men's 511 Slim Fit Jean, Terra, 38W X 32L</a>
+                    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> </p>
             </div>
             <div class="col-md-4">
                 <h2>Footwear</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
+                    <p><a class="embedly-card" href="https://www.amazon.com/Cole-Haan-Casual-Wingtip-Tuxedo/dp/B0059W68O6/ref=lp_16273629011_1_25?m=ATVPDKIKX0DER&s=apparel&ie=UTF8&qid=1489018328&sr=1-25&nodeID=16273629011">Cole Haan Men's Lenox Hill Casual Wingtip Tuxedo Oxford, Brown Milled, 9.5 W US</a>
+                    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> </p>
+                
         </div>
     </div>
 </div>

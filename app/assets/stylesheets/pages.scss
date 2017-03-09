@@ -2,8 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.jumbotron-home {
-    background-image: url(image_path('home-bg.jpg'));
+.jumbotron-fluid {
+    background-image: url(image_path('mangrove-bg.jpg'));
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
