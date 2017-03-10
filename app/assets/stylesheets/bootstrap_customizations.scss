@@ -133,4 +133,11 @@ $navbar-light-disabled-color:       rgba(0,0,0,.15);
 // Jumbotron
 
 $jumbotron-padding:              2rem;
-$jumbotron-bg:                   #26A65B;
+$jumbotron-bg:                   $gray-lightest;
+$background-image: 				 linear-gradient(hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url(image_path('mangrove-bg.jpg'));
+
+
+#athena-jumbotron h2.header-text {
+color: #f7f7f9;
+}
+
