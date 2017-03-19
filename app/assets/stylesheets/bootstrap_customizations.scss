@@ -72,7 +72,7 @@ $link-hover-decoration: underline;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica", Arial, sans-serif;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif;
 $font-family-base:       $font-family-sans-serif;
 
@@ -137,7 +137,4 @@ $jumbotron-bg:                   $gray-lightest;
 $background-image: 				 linear-gradient(hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url(image_path('mangrove-bg.jpg'));
 
 
-#athena-jumbotron h2.header-text {
-color: #f7f7f9;
-}
 
